@@ -13,17 +13,17 @@
 
 body{
     width: 100vw;
-    height: 70vh;
+    height: 100vh;
     display: flex;
+	aspect-ratio: 100 / 29;
     font-family: "Helvetica Neue", "Open sans", sans-serif;
     background: gray -webkit-linear-gradient(top left, #a802e0, #f7676a);
-    color: white;
+    color: black;
 }
 
 .chat-container {
 	background: gray -webkit-linear-gradient(top left, #a802e0, #f7676a);
 	max-width: 1100px;
-	background: #fff;
 	margin: 10px auto;
 	overflow: hidden;
 }
@@ -75,7 +75,6 @@ body{
 .chat-messages .message {
 	padding: 10px;
 	margin-bottom: 15px;
-	background-color: #a802e0;
 	border-radius: 5px;
 }
 
@@ -89,7 +88,7 @@ body{
 
 .chat-messages .message .meta span {
 	font-size: 16px;
-	color: white;
+	color: black;
 }
 
 .chat-form-container {

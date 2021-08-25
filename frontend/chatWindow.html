@@ -31,20 +31,7 @@
                 <li>John</li>
             </ul>
         </div>
-        <div class="chat-messages">
-            <div class="message">
-                <p class="meta">Hannah &nbsp <span>6:15pm</span></p>
-                <p class="text">
-                    Hey! What's up?
-                </p>
-            </div>
-            <div class="message">
-                <p class="meta">Laura &nbsp <span>6:30pm</span></p>
-                <p class="text">
-                    Hey! What's up?
-                </p>
-            </div>
-        </div>
+        <div class="chat-messages"></div>
     </main>
     <div class="chat-form-container">
         <form id="chat-form">
@@ -59,12 +46,12 @@
         </form>
     </div>
 </div>
-
-<!--<script-->
-<!--        src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.9.2/qs.min.js"-->
-<!--        integrity="sha256-TDxXjkAUay70ae/QJBEpGKkpVslXaHHayklIVglFRT4="-->
-<!--        crossorigin="anonymous"-->
-<!--&gt;</script>-->
+<script src="http://localhost:3000/socket.io/socket.io.js"></script>
+<script>
+       src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.9.2/qs.min.js"
+       integrity="sha256-TDxXjkAUay70ae/QJBEpGKkpVslXaHHayklIVglFRT4="
+       crossorigin="anonymous"
+;</script>
 <script src="js/main.js"></script>
 </body>
 </html>
